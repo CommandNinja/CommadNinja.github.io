@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Bitty';
+  src: url('bitty.ttf');
+  font-weight: bold;
+}
+body {
+  background-color: #444;
+}
+.mainBox {
+  background-color: #aaa;
+  margin: 5;
+  padding: 10;
+  flex-direction: column;
+  display: flex;
+  overflow-x: auto;
+  display: none;
+}
+.subBox {
+  background-color: #ddd;
+  margin: 5;
+  padding: 10; 
+}
+.menuButton {
+  cursor: pointer;
+  padding: 5 0 5 0;
+}
+.b {
+  text-shadow:
+  .5px 0px 0px black,
+  0px .5px 0px black,
+  .5px .5px 0px black;
+  text-transform: uppercase;
+}
+h1 {
+  text-shadow:
+  2px 0px 0px black,
+  0px 2px 0px black,
+  2px 2px 0px black;
+  font-size: 40px;/*needs to be a multiple of 8 for font*/
+}
+h3 {
+  text-shadow:
+  1px 0px 0px black,
+  0px 1px 0px black,
+  1px 1px 0px black;
+  font-size: 24px;
+}
